@@ -6,51 +6,52 @@
   <title>DVL Mühendislik</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="favicon.png">
+  <link href="others/im/favicon.png" rel="icon">
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="others/animations/gen/css/bootstrap.min.css" rel="stylesheet">
+  <link href="others/animations/gen-icons/gen-icons.css" rel="stylesheet">
+  <link href="others/animations/aos/aos.css" rel="stylesheet">
+  <link href="others/animations/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="others/animations/swipe/swiper-bundle.min.css" rel="stylesheet">
+  <link href="others/css/main.css" rel="stylesheet">
 </head>
+
 <body class="index-page">
   <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
-      <a href="index.html" class="logo d-flex align-items-center me-auto"><h1 class="sitename"><img src="assets/im/logo.png" alt="">DVL Mühendislik</h1></a>
+      <a href="index.html" class="logo d-flex align-items-center me-auto"><h1 class="sitename"><img src="others/im/logo.png" alt="">DVL Mühendislik</h1></a>
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Anasayfa</a></li>
-          <li><a href="#about">Hakkımızda</a></li>
-          <li><a href="#services">Hizmetler</a></li>
-          <li><a href="#team">Ekip</a></li>
-          <li><a href="#portfolio">Projeler</a></li>
-          <li class="dropdown"><a href="#"><span>Blog</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="#anasayfa" class="active">Anasayfa</a></li>
+          <li><a href="#hak">Hakkımızda</a></li>
+          <li><a href="#projeler">Projeler</a></li>
+          <li><a href="#ekip">Ekip</a></li>
+          <li class="dropdown"><a href="#hizmet"><span>Hizmetler</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Blog 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li><a href="hizmet.html">Arazi</a></li>
+              <li class="dropdown"><a href="hizmet.html"><span>Teknik Çizim</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-                  <li><a href="#">Derin Blog 1</a></li>
+                  <li><a href="hizmet.html">3B Kadastro</a></li>
+                  <li><a href="hizmet.html">3B Cami</a></li>
+                  <li><a href="hizmet.html">Teknik yol Çizimi</a></li>
                 </ul>
               </li>
-              <li><a href="#">Blog 2</a></li>
+              <li><a href="hizmet.html">Kadastro</a></li>
             </ul>
           </li>
-          <li><a href="#contact">İletişim</a></li>
+          <li><a href="#ilet">İletişim</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-      <a class="btn-getstarted" href="index.html#about">Başlayalım</a>
+      <a class="btn-getstarted" href="index.html#hak">Başlayalım</a>
     </div>
   </header>
 
   <main class="main">
     <!--Anasayfa-->
-    <section id="hero" class="hero section dark-background">
+    <section id="anasayfa" class="hero section dark-background">
       <div class="container" data-aos="fade-up">
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -68,14 +69,14 @@
                 <li><i class="bi bi-check-circle"></i> Verilerden yola çıkan direkt çözüm önerileri</li>
               </ul>
               <div class="hero-cta">
-                <a href="#services" class="btn btn-primary">Hizmetlerimizi keşfedin</a>
+                <a href="#hizmet" class="btn btn-primary">Hizmetlerimizi keşfedin</a>
                 <a href="tel:+90 (530) 243 61 57" class="btn btn-link"><i class="bi bi-telephone"></i>+90 (530) 243 61 57</a>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="hero-image-wrapper" data-aos="fade-up" data-aos-delay="300">
-              <img src="assets/im/about/about-square-13.jpg" alt="" class="img-fluid hero-image">
+              <img src="others/im/hak/hak.jpg" alt="Mimari proje çizim" class="img-fluid hero-image">
               <div class="stat-card top-right">
                 <div class="stat-value">2.5Bin+</div>
                 <div class="stat-label">Tanınırlığımız</div>
@@ -97,7 +98,7 @@
     </section>
 
 
-    <section id="about" class="about section">
+    <section id="hak" class="about section">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row justify-content-center mb-5">
@@ -216,15 +217,12 @@
       </div>
     </section>
 
-    <section id="services" class="services section">
-
+    <section id="hizmet" class="services section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Hizmetlerimiz</h2>
         <p>Haritacılık anlamında aklınızda oluşan bütün sorulara çözüm getirelim</p>
       </div>
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="services-row">
           <div class="row">
             <div class="col-lg-4">
@@ -237,7 +235,7 @@
               </div>
               <div class="services-image-container" data-aos="fade-up" data-aos-delay="200">
                 <div class="services-image">
-                  <img src="assets/im/services/SSA1.png" alt="Services" class="img-fluid">
+                  <img src="others/im/hizmet/hizmet-3.png" alt="AlperDeveli Hizmet ederken" class="img-fluid">
                 </div>
               </div>
             </div>
@@ -253,7 +251,7 @@
                           <i class="bi bi-cash-stack"></i>
                         </div>
                         <div class="service-info">
-                          <h3><a href="#">Stratejik Planlama</a></h3>
+                          <h3><a href="hizmet.html">Stratejik Planlama</a></h3>
                           <p>Operasyonlarınızı optimize etmek ve genel verimliliğinizi artırmak için özelleştirilmiş planlar sunuyoruz.</p>
                           <div class="service-action">
                             <a href="hizmet.html" class="read-more-btn">Detaylar <i class="bi bi-arrow-right"></i></a>
@@ -263,7 +261,6 @@
                     </div>
                   </div>
 
-                  <!-- Service Item 2 -->
                   <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card">
                       <div class="service-content text-center">
@@ -271,7 +268,7 @@
                           <i class="bi bi-list-check"></i>
                         </div>
                         <div class="service-info">
-                          <h3><a href="#">Sizi anlama</a></h3>
+                          <h3><a href="hizmet.html">Sizi anlama</a></h3>
                           <p>Uzman ekibimiz, hedef kitlenizle bağlantı kuran ve dönüşümleri etkili bir şekilde artıran ilgi çekici kampanyalar tasarlar.</p>
                           <div class="service-action">
                             <a href="hizmet.html" class="read-more-btn">Devamını görün <i class="bi bi-arrow-right"></i></a>
@@ -281,7 +278,6 @@
                     </div>
                   </div>
 
-                  <!-- Service Item 3 -->
                   <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-card">
                       <div class="service-content text-center">
@@ -289,7 +285,7 @@
                           <i class="bi bi-bar-chart"></i>
                         </div>
                         <div class="service-info">
-                          <h3><a href="#">Performans analizi</a></h3>
+                          <h3><a href="hizmet.html">Performans analizi</a></h3>
                           <p>Gelecekteki büyümeniz için bilinçli kararlar almanıza yardımcı olmak amacıyla verilerinizi analiz ederek eyleme dönüştürülebilir içgörüler sunuyoruz.</p>
                           <div class="service-action">
                             <a href="hizmet.html" class="read-more-btn">Devamını okuyun <i class="bi bi-arrow-right"></i></a>
@@ -299,7 +295,6 @@
                     </div>
                   </div>
 
-                  <!-- Service Item 4 -->
                   <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-card">
                       <div class="service-content text-center">
@@ -307,7 +302,7 @@
                           <i class="bi bi-pie-chart"></i>
                         </div>
                         <div class="service-info">
-                          <h3><a href="#">Pazar araştırması</a></h3>
+                          <h3><a href="hizmet.html">Pazar araştırması</a></h3>
                           <p>Pazarınızı anlamak çok önemlidir ve size rekabet avantajı sağlamak için kapsamlı araştırmalar sunuyoruz.</p>
                           <div class="service-action">
                             <a href="hizmet.html" class="read-more-btn">Dahasını öğrenin <i class="bi bi-arrow-right"></i></a>
@@ -322,120 +317,141 @@
           </div>
         </div>
       </div>
-
     </section>
 
     <!--Ref-->
-    <section id="clients" class="clients section">
+    <section id="ref" class="clients section">
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
         <div class="clients-slider">
           <div class="clients-track track-1" data-aos="fade-right" data-aos-delay="200">
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-1.webp" class="img-fluid" alt="Client 1">
+              <img src="others/im/ref/ref-1.webp" class="img-fluid" alt="Karadeniz Teknik Üniversitesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-2.webp" class="img-fluid" alt="Client 2">
+              <img src="others/im/ref/ref-2.webp" class="img-fluid" alt="Tokat GaziosmanPaşa Üniversitesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-3.webp" class="img-fluid" alt="Client 3">
+              <img src="others/im/ref/ref-3.webp" class="img-fluid" alt="Sinop Üniversitesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-4.webp" class="img-fluid" alt="Client 4">
+              <img src="others/im/ref/ref-4.webp" class="img-fluid" alt="Trabzon Ticaret ve Sanayi Odası Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-5.webp" class="img-fluid" alt="Client 5">
+              <img src="others/im/ref/ref-5.webp" class="img-fluid" alt="Trabzon Teknik Geliştirme Bölgesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-6.webp" class="img-fluid" alt="Client 6">
+              <img src="others/im/ref/ref-6.webp" class="img-fluid" alt="Evim Gayrimenkul Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-7.webp" class="img-fluid" alt="Client 7">
+              <img src="others/im/ref/ref-7.webp" class="img-fluid" alt="FCB Grup Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-8.webp" class="img-fluid" alt="Client 8">
+              <img src="others/im/ref/ref-8.webp" class="img-fluid" alt="Kripton Logo">
             </div>
-
+            <div class="clients-slide">
+              <img src="others/im/ref/ref-9.webp" class="img-fluid" alt="Sinop Emlak Dünyası Logo">
+            </div>
+            <div class="clients-slide">
+              <img src="others/im/ref/ref-10.webp" class="img-fluid" alt="Şanlan Gayrimenkul Logo">
+            </div>
 
             <!-- Duplicating-->
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-1.webp" class="img-fluid" alt="Client 1">
+              <img src="others/im/ref/ref-1.webp" class="img-fluid" alt="Karadeniz Teknik Üniversitesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-2.webp" class="img-fluid" alt="Client 2">
+              <img src="others/im/ref/ref-2.webp" class="img-fluid" alt="Tokat GaziosmanPaşa Üniversitesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-3.webp" class="img-fluid" alt="Client 3">
+              <img src="others/im/ref/ref-3.webp" class="img-fluid" alt="Sinop Üniversitesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-4.webp" class="img-fluid" alt="Client 4">
+              <img src="others/im/ref/ref-4.webp" class="img-fluid" alt="Trabzon Ticaret ve Sanayi Odası Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-5.webp" class="img-fluid" alt="Client 5">
+              <img src="others/im/ref/ref-5.webp" class="img-fluid" alt="Trabzon Teknik Geliştirme Bölgesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-6.webp" class="img-fluid" alt="Client 6">
+              <img src="others/im/ref/ref-6.webp" class="img-fluid" alt="Evim Gayrimenkul Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-7.webp" class="img-fluid" alt="Client 7">
+              <img src="others/im/ref/ref-7.webp" class="img-fluid" alt="FCB Grup Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-8.webp" class="img-fluid" alt="Client 8">
+              <img src="others/im/ref/ref-8.webp" class="img-fluid" alt="Kripton Logo">
             </div>
-
+            <div class="clients-slide">
+              <img src="others/im/ref/ref-9.webp" class="img-fluid" alt="Sinop Emlak Dünyası Logo">
+            </div>
+            <div class="clients-slide">
+              <img src="others/im/ref/ref-10.webp" class="img-fluid" alt="Şanlan Gayrimenkul Logo">
+            </div>
           </div>
         </div>
 
         <div class="clients-slider">
           <div class="clients-track track-2" data-aos="fade-left" data-aos-delay="300">
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-8.webp" class="img-fluid" alt="Client 8">
+              <img src="others/im/ref/ref-10.webp" class="img-fluid" alt="Şanlan Gayrimenkul Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-7.webp" class="img-fluid" alt="Client 7">
+              <img src="others/im/ref/ref-9.webp" class="img-fluid" alt="Sinop Emlak Dünyası Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-6.webp" class="img-fluid" alt="Client 6">
+              <img src="others/im/ref/ref-8.webp" class="img-fluid" alt="Kripton Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-5.webp" class="img-fluid" alt="Client 5">
+              <img src="others/im/ref/ref-7.webp" class="img-fluid" alt="FCB Grup Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-4.webp" class="img-fluid" alt="Client 4">
+              <img src="others/im/ref/ref-6.webp" class="img-fluid" alt="Evim Gayrimenkul Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-3.webp" class="img-fluid" alt="Client 3">
+              <img src="others/im/ref/ref-5.webp" class="img-fluid" alt="Trabzon Teknik Geliştirme Bölgesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-2.webp" class="img-fluid" alt="Client 2">
+              <img src="others/im/ref/ref-4.webp" class="img-fluid" alt="Trabzon Ticaret ve Sanayi Odası Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-1.webp" class="img-fluid" alt="Client 1">
+              <img src="others/im/ref/ref-3.webp" class="img-fluid" alt="Sinop Üniversitesi Logo">
+            </div>
+            <div class="clients-slide">
+              <img src="others/im/ref/ref-2.webp" class="img-fluid" alt="Tokat GaziosmanPaşa Üniversitesi Logo">
+            </div>
+            <div class="clients-slide">
+              <img src="others/im/ref/ref-1.webp" class="img-fluid" alt="Karadeniz Teknik Üniversitesi Logo">
             </div>
 
             <!-- Duplicating-->
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-8.webp" class="img-fluid" alt="Client 8">
+              <img src="others/im/ref/ref-10.webp" class="img-fluid" alt="Şanlan Gayrimenkul Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-7.webp" class="img-fluid" alt="Client 7">
+              <img src="others/im/ref/ref-9.webp" class="img-fluid" alt="Sinop Emlak Dünyası Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-6.webp" class="img-fluid" alt="Client 6">
+              <img src="others/im/ref/ref-8.webp" class="img-fluid" alt="Kripton Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-5.webp" class="img-fluid" alt="Client 5">
+              <img src="others/im/ref/ref-7.webp" class="img-fluid" alt="FCB Grup Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-4.webp" class="img-fluid" alt="Client 4">
+              <img src="others/im/ref/ref-6.webp" class="img-fluid" alt="Evim Gayrimenkul Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-3.webp" class="img-fluid" alt="Client 3">
+              <img src="others/im/ref/ref-5.webp" class="img-fluid" alt="Trabzon Teknik Geliştirme Bölgesi Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-2.webp" class="img-fluid" alt="Client 2">
+              <img src="others/im/ref/ref-4.webp" class="img-fluid" alt="Trabzon Ticaret ve Sanayi Odası Logo">
             </div>
             <div class="clients-slide">
-              <img src="assets/im/clients/clients-1.webp" class="img-fluid" alt="Client 1">
+              <img src="others/im/ref/ref-3.webp" class="img-fluid" alt="Sinop Üniversitesi Logo">
+            </div>
+            <div class="clients-slide">
+              <img src="others/im/ref/ref-2.webp" class="img-fluid" alt="Tokat GaziosmanPaşa Üniversitesi Logo">
+            </div>
+            <div class="clients-slide">
+              <img src="others/im/ref/ref-1.webp" class="img-fluid" alt="Karadeniz Teknik Üniversitesi Logo">
             </div>
           </div>
         </div>
@@ -443,12 +459,12 @@
     </section>
 
     <!-- How -->
-    <section id="how-we-work" class="how-we-work section">
+    <section id="how" class="how-we-work section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Nasıl Çalışıyoruz</h2>
         <p>Sırasıyla sizlere anlatacağımız çalışma diyagramımızın her aşaması planlanarak kurulmuştur</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="steps-wrapper">
@@ -509,8 +525,8 @@
     </section>
 
     <!--Çağrı-->
-    <section id="call-to-action" class="call-to-action section dark-background">
-      <img src="assets/im/3B.jpg" alt="">
+    <section id="call" class="call-to-action section dark-background">
+      <img src="others/im/3B.jpg" alt="4Kmimariçizim">
       <div class="container">
         <div class="row" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-9 text-center text-xl-start">
@@ -518,14 +534,14 @@
             <p>İşinizi en hızlı şekilde yapmaya başlayabilmemiz için hemen yola koyulalım!</p>
           </div>
           <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact">Başlayın</a>
+            <a class="cta-btn align-middle" href="#ilet">Başlayın</a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Projeler -->
-    <section id="portfolio" class="portfolio section">
+    <section id="projeler" class="portfolio section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Projeler</h2>
         <p>Yaptığımız başarılı işlere göz atın, dilerseniz sizinle başarıyla yapacağımız projeyi de buraya eklemek isteriz.</p>
@@ -541,112 +557,112 @@
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/im/portfolio/Arazi-1.jpg" class="img-fluid" alt="">
+              <img src="others/im/projeler/Arazi-1.jpg" class="img-fluid" alt="Arazi çalışması">
               <div class="portfolio-info">
-                <h4>Arazi1</h4>
-                <p>A1</p>
-                <a href="assets/im/portfolio/Arazi-1.jpg" title="A1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Arazi</h4>
+                <p>Arazi çalışması</p>
+                <a href="others/im/projeler/Arazi-1.jpg" title="büyüt" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/im/portfolio/Arazi-2.jpg" class="img-fluid" alt="">
+              <img src="others/im/projeler/Arazi-2.jpg" class="img-fluid" alt="Arazi çalışması">
               <div class="portfolio-info">
-                <h4>Arazi2</h4>
-                <p>A2</p>
-                <a href="assets/im/portfolio/Arazi-2.jpg" title="A2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Arazi</h4>
+                <p>Arazi çalışması</p>
+                <a href="others/im/projeler/Arazi-2.jpg" title="büyüt" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/im/portfolio/Arazi-3.png" class="img-fluid" alt="">
+              <img src="others/im/projeler/Arazi-3.png" class="img-fluid" alt="Arazi çalışması">
               <div class="portfolio-info">
-                <h4>Arazi3</h4>
-                <p>A3</p>
-                <a href="assets/im/portfolio/Arazi-3.png" title="A3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Arazi</h4>
+                <p>Arazi çalışması</p>
+                <a href="others/im/projeler/Arazi-3.png" title="büyüt" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/im/portfolio/Arazi-4.jpg" class="img-fluid" alt="">
+              <img src="others/im/projeler/Arazi-4.jpg" class="img-fluid" alt="Arazi çalışması">
               <div class="portfolio-info">
-                <h4>Arazi4</h4>
-                <p>A4</p>
-                <a href="assets/im/portfolio/Arazi-4.jpg" title="A3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Arazi</h4>
+                <p>Arazi çalışması</p>
+                <a href="others/im/projeler/Arazi-4.jpg" title="büyüt" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/im/portfolio/Arazi-5.jpg" class="img-fluid" alt="">
+              <img src="others/im/projeler/Arazi-5.jpg" class="img-fluid" alt="Arazi çalışması">
               <div class="portfolio-info">
-                <h4>Arazi5</h4>
-                <p>A5</p>
-                <a href="assets/im/portfolio/Arazi-5.jpg" title="A3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Arazi</h4>
+                <p>Arazi çalışması</p>
+                <a href="others/im/projeler/Arazi-5.jpg" title="büyüt" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/im/portfolio/3Bcami.jpg" class="img-fluid" alt="">
+              <img src="others/im/projeler/3Bcami.jpg" class="img-fluid" alt="3Boyutlu cami">
               <div class="portfolio-info">
-                <h4>3B1</h4>
-                <p>3B1</p>
-                <a href="assets/im/portfolio/3Bcami.jpg" title="3B1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>3B</h4>
+                <p>3 Boyutlu cami projesi</p>
+                <a href="others/im/projeler/3Bcami.jpg" title="büyüt" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/im/portfolio/3b-çizim.jpg" class="img-fluid" alt="">
+              <img src="others/im/projeler/3b-çizim.jpg" class="img-fluid" alt="3B çizim">
               <div class="portfolio-info">
-                <h4>3B2</h4>
-                <p>3B2</p>
-                <a href="assets/im/portfolio/3b-çizim.jpg" title="3B2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>3B</h4>
+                <p>3B kadastro teknik çizim aşamaları</p>
+                <a href="others/im/projeler/3b-çizim.jpg" title="büyüt" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/im/portfolio/Teknik-yol.png" class="img-fluid" alt="">
+              <img src="others/im/projeler/Teknik-yol.png" class="img-fluid" alt="Teknikyolçizimi">
               <div class="portfolio-info">
-                <h4>3B3</h4>
-                <p>3B3</p>
-                <a href="assets/im/portfolio/Teknik-yol.png" title="B3" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Teknik</h4>
+                <p>Teknik yol çizim projesi</p>
+                <a href="others/im/projeler/Teknik-yol.png" title="büyüt" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/im/portfolio/Kadastro1.png" class="img-fluid" alt="">
+              <img src="others/im/projeler/Kadastro1.png" class="img-fluid" alt="parselbölme">
               <div class="portfolio-info">
-                <h4>Kadastro1</h4>
-                <p>K1</p>
-                <a href="assets/im/portfolio/Kadastro1.png" title="K1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Kadastro</h4>
+                <p>Kadastro projesi</p>
+                <a href="others/im/projeler/Kadastro1.png" title="büyüt" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/im/portfolio/portfolio-portrait-2.webp" class="img-fluid" alt="">
+              <img src="others/im/projeler/portfolio-portrait-2.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Kadastro2</h4>
-                <p>K2</p>
-                <a href="assets/im/portfolio/portfolio-portrait-2.webp" title="K2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Kadastro</h4>
+                <p>Kadastro projesi</p>
+                <a href="others/im/projeler/portfolio-portrait-2.webp" title="büyüt" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/im/portfolio/portfolio-8.webp" class="img-fluid" alt="">
+              <img src="others/im/projeler/portfolio-8.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>K3</h4>
-                <p>K3</p>
-                <a href="assets/im/portfolio/portfolio-8.webp" title="K3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <h4>Kadastro</h4>
+                <p>Kadastro projesi</p>
+                <a href="others/im/projeler/portfolio-8.webp" title="büyüt" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -656,7 +672,7 @@
     </section>
 
     <!-- Ekip-->
-    <section id="team" class="team section">
+    <section id="ekip" class="team section">
       <div class="container section-title" data-aos="fade-up">
         <h2>Ekip</h2><p>Genç, Dinamik ve her türlü projeye hazır ekibimiz...</p></div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -705,7 +721,7 @@
                 <div class="swiper-slide">
                   <div class="member-card">
                     <div class="member-image">
-                      <img src="assets/im/person/ad.webp" class="img-fluid" alt="" loading="lazy">
+                      <img src="others/im/kişiler/ad.webp" class="img-fluid" alt="AlperDeveliFotoğraf" loading="lazy">
                     </div>
                     <div class="member-info">
                       <h3>Alper Develi</h3>
@@ -724,14 +740,13 @@
                 <div class="swiper-slide">
                   <div class="member-card">
                     <div class="member-image">
-                      <img src="assets/im/person/mlay.webp" class="img-fluid" alt="" loading="lazy">
+                      <img src="others/im/kişiler/mlay.webp" class="img-fluid" alt="MLeventAslanFotoğraf" loading="lazy">
                     </div>
                     <div class="member-info">
                       <h3>Levent ASLAN</h3>
                       <span>Harita Mühendisi</span>
                       <div class="member-social">
                         <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
                         <a href="https://de.linkedin.com/in/mleventaslan?trk=public_profile_browsemap"><i class="bi bi-linkedin"></i></a>
                       </div>
                       <div class="member-bio">
@@ -744,19 +759,12 @@
                 <div class="swiper-slide">
                   <div class="member-card">
                     <div class="member-image">
-                      <img src="assets/im/person/visual.png" class="img-fluid" alt="" loading="lazy">
+                      <img src="others/im/kişiler/ozcan.png" class="img-fluid" alt="ÖzcanCivelekFotoğraf" loading="lazy">
                     </div>
                     <div class="member-info">
-                      <h3>Özcan Civelek</h3>
-                      <span>Harita Mühendisi</span>
-                      <div class="member-social">
-                        <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                      </div>
-                      <div class="member-bio">
-                        <p>Arazi ölçüm uzmanı</p>
-                      </div>
+                      <h3>Özcan Civelek</h3><span>Harita Mühendisi</span>
+                      <div class="member-social"><a href="#"><i class="bi bi-linkedin"></i></a></div>
+                      <div class="member-bio"><p>Arazi ölçüm uzmanı</p></div>
                     </div>
                   </div>
                 </div>
@@ -764,38 +772,27 @@
                 <div class="swiper-slide">
                   <div class="member-card">
                     <div class="member-image">
-                      <img src="assets/im/person/Kaan.png" class="img-fluid" alt="" loading="lazy">
+                      <img src="others/im/kişiler/Kaan.png" class="img-fluid" alt="KaanFotoğraf" loading="lazy">
                     </div>
-                    <div class="member-info">
-                      <h3>Kağan özcevahir</h3>
-                      <span>Teknik Personel</span>
-                      <div class="member-social">
-                        <a href="#"><i class="bi bi-twitter-x"></i></a>
-                        <a href="#"><i class="bi bi-facebook"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                      </div>
-                      <div class="member-bio">
-                        <p>Her türlü yardımcı desteği sunan, ofisimizin yetkilisi.</p>
-                      </div>
+                    <div class="member-info"><h3>Kağan özcevahir</h3><span>Teknik Personel</span>
+                      <div class="member-social"><a href="#"><i class="bi bi-linkedin"></i></a></div>
+                      <div class="member-bio"><p>Her türlü yardımcı desteği sunan, ofisimizin yetkilisi.</p></div>
                     </div>
                   </div>
-                </div><!-- End slide item -->
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-    </section><!-- /Team Section -->
+    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-      <!-- Section Title -->
+    <!-- ilet -->
+    <section id="ilet" class="contact section">
       <div class="container section-title" data-aos="fade-up">
         <h2>İletişim</h2>
         <p>İşlemleriniz için bizimle hemen iletişime geçin, ne vaktiniz bekleyerek boşa gitmesin!</p>
-      </div><!-- End Section Title -->
-
+      </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="contact-main-wrapper">
           <div class="map-wrapper">
@@ -885,7 +882,6 @@
         </div>
       </div>
     </section>
-
   </main>
   <footer id="footer" class="footer position-relative light-background">
     <div class="container footer-top">
@@ -910,10 +906,10 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Linkler</h4>
           <ul>
-            <li><a href="#hero">Anasayfa</a></li>
-            <li><a href="#about">Hakkımızda</a></li>
-            <li><a href="#services">Hizmetlerimiz</a></li>
-            <li><a href="#team">Ekip</a></li>
+            <li><a href="#anasayfa">Anasayfa</a></li>
+            <li><a href="#hak">Hakkımızda</a></li>
+            <li><a href="#hizmet">Hizmetlerimiz</a></li>
+            <li><a href="#ekip">Ekip</a></li>
             <li><a href="KVKK.html">KVKK</a></li>
           </ul>
         </div>
@@ -921,11 +917,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Hizmetlerimiz</h4>
           <ul>
-            <li><a href="#services">Şantiye Hizmetleri</a></li>
-            <li><a href="#services">3B Kadastro</a></li>
-            <li><a href="#services">Kadastro İşlemleri</a></li>
-            <li><a href="#services">Sınır Tespiti</a></li>
-            <li><a href="#services">Proje Danışmanlık</a></li>
+            <li><a href="#hizmet">Şantiye Hizmetleri</a></li>
+            <li><a href="#hizmet">3B Kadastro</a></li>
+            <li><a href="#hizmet">Kadastro İşlemleri</a></li>
+            <li><a href="#hizmet">Sınır Tespiti</a></li>
+            <li><a href="#hizmet">Proje Danışmanlık</a></li>
           </ul>
         </div>
       </div>
@@ -935,16 +931,16 @@
     </div>
   </footer>
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="others/animations/gen/js/bootstrap.bundle.min.js"></script>
+  <script src="others/animations/php-email-form/validate.js"></script>
+  <script src="others/animations/aos/aos.js"></script>
+  <script src="others/animations/glightbox/js/glightbox.min.js"></script>
+  <script src="others/animations/purecounter/purecounter_vanilla.js"></script>
+  <script src="others/animations/type/typed.umd.js"></script>
+  <script src="others/animations/swipe/swiper-bundle.min.js"></script>
+  <script src="others/animations/waypoints/noframework.waypoints.js"></script>
+  <script src="others/animations/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="others/animations/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="others/js/main.js"></script>
 </body>
 </html>
